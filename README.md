@@ -10,7 +10,7 @@
 pip install --user pipenv
 ```
 
-## Intale as depedências
+## Instale as depedências
 ```
 pipenv shell
 pip install
@@ -22,7 +22,7 @@ pip install
 ```
 python main.py --problem tsp  --population_size 200 --n_generations 1000 --mutation_rate 0.1
 
-python main.py --problem regression  --population_size 200 --n_generations 1000 --mutation_rate 0.1
+python main.py --problem regression  --population_size 200 --n_generations 1000 --mutation_rate 0.15
 
 python main.py --problem classification  --population_size 200 --n_generations 1000 --mutation_rate 0.1
 ```
